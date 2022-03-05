@@ -1,0 +1,23 @@
+{
+  "name": "miniature-eureka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kstensing/note-taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kstensing/note-taker/issues"
+  },
+  "homepage": "https://github.com/kstensing/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
