@@ -1,12 +1,11 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-// const noteData = require('./db/db.json');
 const uniqid = require('uniqid');
 
 const res = require('express/lib/response');
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 const app = express();
 
@@ -41,9 +40,6 @@ app.delete('/api/notes/:id', (req, res) => {
                 console.error(err);
             } else {
                 const parsedNotes = JSON.parse(data);
-
-                //add a new note
-                //parsedNotes.push(newNote);
 
                 const noteId = req.params.id;
                 var noteToBeDeleted = '';
@@ -83,7 +79,7 @@ app.post('/api/notes', (req, res) => {
     } = req.body;
 
     if (title && text) {
-        //variable for the new object will save
+        
         const newNote = {
             title,
             text,
