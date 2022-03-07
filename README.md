@@ -30,7 +30,7 @@
   ## Usage
   See license info
   
-  Click this [Link](https://https://peaceful-spire-57633.herokuapp.com/) for the application.
+  Click this [Link](https://peaceful-spire-57633.herokuapp.com/) for the application.
   
 
 
