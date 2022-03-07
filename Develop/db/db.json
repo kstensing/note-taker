@@ -1,20 +1,12 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
+        "title": "Note Test",
+        "text": "Test text",
+        "id": "2bs3xkmsl0fz0gb1"
     },
     {
-        "title": "Test Title2",
-        "text": "Test text2"
-    },
-    {
-        "title": "New",
-        "text": "New note here ",
-        "note_id": "2bs3xwwgl0fogbax"
-    },
-    {
-        "title": "testagain",
-        "text": "sdf",
-        "note_id": "2bs3xwgl0fp0wh3"
+        "title": "Another Note Test",
+        "text": "More test text",
+        "id": "2bs3xkmsl0fz1hsm"
     }
 ]
